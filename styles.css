@@ -1,427 +1,426 @@
 *, *:before, *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
-
 
 /*-----     font-family: 'Roboto', sans-serif;
             font-family: 'Lora', serif;       --------*/
 
 body {
-    margin: auto;
-    background: #F2F1E8;
-    color: #131511;
-    font-family: 'Lora', serif;
+  margin: auto;
+  background: #F2F1E8;
+  color: #131511;
+  font-family: 'Lora', serif;
 }
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 h4 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .shadow {
-    box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .nav-row {
-    position: fixed;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    width: 100%;
-    height: 50px;
-    margin-bottom: 20px;
-    border-bottom-style: solid;
-    z-index: 50;
+  position: fixed;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
+  z-index: 50;
 }
 
 .nav-item {
-    position: relative;
-    padding: 15px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #2B2F26;
-    text-transform: uppercase;
-    text-decoration: none;
+  position: relative;
+  padding: 15px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #2B2F26;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav-item a {
-    float: left;
-    display: block;
-    color: #2B2F26;
-    text-align: center;
+  float: left;
+  display: block;
+  color: #2B2F26;
+  text-align: center;
 }
 
 .nav-item a.active {
-    color: #968772;
+  color: #968772;
 }
 
 .nav-item a:hover {
-    color: #CD5D67;
+  color: #CD5D67;
 }
 
 #logo {
-    position: fixed;
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/bent-creek-logo.png');
-    width: 40px;
-    height: 40px;
-    margin: 5px 20px;
-    z-index: 75;
+  position: fixed;
+  content: url('./images/bent-creek-logo.png');
+  width: 40px;
+  height: 40px;
+  margin: 5px 20px;
+  z-index: 75;
 }
 
 .main-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px 0px 5px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0px 5px 0px;
 }
 
 .main-text {
-    display: flex;
-    justify-content: center;
-    padding: 10x 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+  padding: 10x 0px 5px 0px;
 }
 
 #text-main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    left: 25px;
-    top: -213px;
-    z-index: 1;
-    width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 25px;
+  top: -213px;
+  z-index: 1;
+  width: 45%;
 }
 
 .text-item {
-    color: white;
-    background-color: #2e3427;
-    text-align: center;
+  color: white;
+  background-color: #2e3427;
+  text-align: center;
 }
 
 .text-row {
-    display: flex;
-    position: relative;
-    top: -10px;
-    left: 0px;
+  display: flex;
+  position: relative;
+  top: -10px;
+  left: 0px;
 }
 
 #endless {
-    position: relative;
-    left: 180px;
-    width: 160px;
+  position: relative;
+  left: 180px;
+  width: 160px;
 }
 
 #sets {
-    position: relative;
-    left: 568px;
-    width: 40px;
+  position: relative;
+  left: 568px;
+  width: 40px;
 }
 
 #textures {
-    position: relative;
-    left: 715px;
-    width: 80px;
+  position: relative;
+  left: 715px;
+  width: 80px;
 }
 
 #teatime {
-    position: relative;
-    top: 190px;
-    left: -102px;
-    width: 80px;
+  position: relative;
+  top: 190px;
+  left: -102px;
+  width: 80px;
 }
 
 #jars {
-    position: relative;
-    top: 190px;
-    left: 8px;
-    width: 160px;
+  position: relative;
+  top: 190px;
+  left: 8px;
+  width: 160px;
 }
 
 #wasabi {
-    position: relative;
-    top: 171px;
-    left: 442px;
-    width: 130px;
+  position: relative;
+  top: 171px;
+  left: 442px;
+  width: 130px;
 }
 
 #sippin {
-    position: relative;
-    top: 171px;
-    left: 672px;
-    width: 162px;
+  position: relative;
+  top: 171px;
+  left: 672px;
+  width: 162px;
 }
 
 .img-main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .img-row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 920px;
-    z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 920px;
+  z-index: -1;
 }
 
 .img-item {
-    display: flex;
-    font-family: "Lora";
-    color: white;
-    background-color: #2e3427;
+  display: flex;
+  font-family: "Lora";
+  color: white;
+  background-color: #2e3427;
 }
 
 #endless-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-1.jpg');
-    width: 540px;
-    height: 300px;
+  content: url('./images/product-1.jpg');
+  width: 540px;
+  height: 300px;
 }
 
 #sets-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-2.jpg');
-    width: 180px;
-    height: 300px;
+  content: url('./images/product-2.jpg');
+  width: 180px;
+  height: 300px;
 }
 
 #textures-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-3.jpg');
-    width: 180px;
-    height: 300px;
+  content: url('./images/product-3.jpg');
+  width: 180px;
+  height: 300px;
 }
 
 #teatime-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-4.jpg');
-    width: 180px;
-    height: 180px;
-    margin-top: 10px;
+  content: url('./images/product-4.jpg');
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
 }
 
 #jars-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-5.jpg');
-    width: 180px;
-    height: 180px;
-    margin-top: 10px;
+  content: url('./images/product-5.jpg');
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
 }
 
 #wasabi-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-6.jpg');
-    width: 350px;
-    height: 180px;
-    margin-top: 10px;
+  content: url('./images/product-6.jpg');
+  width: 350px;
+  height: 180px;
+  margin-top: 10px;
 }
 
 #sippin-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/product-7.jpg');
-    width: 180px;
-    height: 180px;
-    margin-top: 10px;
+  content: url('./images/product-7.jpg');
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
 }
 
 .about-main {
-    padding-top: 50px;
-    width: 50%;
-    margin: auto;
-    line-height: 28px;
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+  line-height: 28px;
 }
 
 .xxlarge {
-    padding-top: 50px;
-    font-size: 60px;
-    text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+  text-align: center;
 }
 
 .about-text {
-    position: relative;
-    padding-top: 20px;
+  position: relative;
+  padding-top: 20px;
 }
 
 .img-float {
-    float: left;
+  float: left;
 }
 
 .community-text {
-    position: relative;
-    padding-left: 5px;
+  position: relative;
+  padding-left: 5px;
 }
 
 .about-quote {
-    position: relative;
-    padding-left: 10px;
-    width: 50%;
-    margin: auto;
-    border-left: 2px solid #968772;
+  position: relative;
+  padding-left: 10px;
+  width: 50%;
+  margin: auto;
+  border-left: 2px solid #968772;
 }
 
 .about-history {
-    width: 50%;
-    margin: auto;
-    position: relative;
-    margin-top: 30px;
-    line-height: 28px;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  margin-top: 30px;
+  line-height: 28px;
 }
 
 .background-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    margin: 20px 0px;
-    background: white url("/Users/roberttaylor/Desktop/week-one-project/images/background-3.jpg") no-repeat scroll center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 20px 0px;
+  background: white url("./images/background-3.jpg") no-repeat scroll center;
 }
 
 .newsletter-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: white url("/Users/roberttaylor/Desktop/week-one-project/images/background-2.jpg") no-repeat scroll center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white url("./images/background-2.jpg") no-repeat scroll center;
 }
 
 .xxlarge-white {
-    font-family: 'Lora', serif;
-    font-size: 60px;
-    color: white;
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  color: white;
 }
 
 .list-container {
-    display: flex;
+  display: flex;
 }
 
 .row-to-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-facilities {
-    position: relative;
+  position: relative;
 }
 
 #facilities-img {
-    content: url('/Users/roberttaylor/Desktop/week-one-project/images/background-1.jpg');
-    width: 120px;
-    height: 100px;
+  content: url('./images/background-1.jpg');
+  width: 120px;
+  height: 100px;
 }
 
 .facilities-text {
-    line-height: 12px;
-    font-size: 12px;
-    width: 120px;
-    position: relative;
+  line-height: 12px;
+  font-size: 12px;
+  width: 120px;
+  position: relative;
 }
 
 .about-monthly {
-    position: relative;
-    width: 50%;
-    margin: auto;
-    line-height: 28px;
-    padding-top: 20px;
+  position: relative;
+  width: 50%;
+  margin: auto;
+  line-height: 28px;
+  padding-top: 20px;
 }
 
 .pad-50-top {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .add-border th, td {
-    border-collapse: collapse;
-    margin: 20px 5px;
-    border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px 5px;
+  border: 1px solid black;
 }
 
 #override-border {
-    border-collapse: collapse !important;
+  border-collapse: collapse !important;
 }
 
 #add-border-padding {
-    height: 30px;
-    padding: 20px 10px;
+  height: 30px;
+  padding: 20px 10px;
 }
 
 .viewpoint-height {
-    height: 100vh;
+  height: 100vh;
 }
 
 .form-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    background: white;
-    color: black;
-    height: 300px;
-    width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background: white;
+  color: black;
+  height: 300px;
+  width: 500px;
 }
 
 .signup {
-    margin: auto;
-    font-size: 18px;
-    padding: 5px;
-    line-height: 28px;
+  margin: auto;
+  font-size: 18px;
+  padding: 5px;
+  line-height: 28px;
 }
 
 .name {
-    color: #968772;
-    margin: auto;
-    width: 400px;
-    font-size: 20px;
-    border-bottom: solid #968772;
+  color: #968772;
+  margin: auto;
+  width: 400px;
+  font-size: 20px;
+  border-bottom: solid #968772;
 }
 
 .email {
-    color: #968772;
-    margin: auto;
-    width: 400px;
-    font-size: 20px;
-    border-bottom: solid #968772;
+  color: #968772;
+  margin: auto;
+  width: 400px;
+  font-size: 20px;
+  border-bottom: solid #968772;
 }
 
 .submit {
-    background: #968772;
-    color: white;
-    margin: auto;
-    width: 80px;
-    height: 45px;
+  background: #968772;
+  color: white;
+  margin: auto;
+  width: 80px;
+  height: 45px;
 }
 
 .submit-button {
-    margin: auto;
-    color: white;
-    position: relative;
-    top: -55px;
-    font-size: 18px;
+  margin: auto;
+  color: white;
+  position: relative;
+  top: -55px;
+  font-size: 18px;
 }
 
 bold {
-    font-size: 24px;
-    padding: 10px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 #copyright {
-    color: white;
-    background-color: #2e3427;
-    height: 50px;
-    margin: 10px 0px;
-    padding: 15px 0px 2px 10px;
+  color: white;
+  background-color: #2e3427;
+  height: 50px;
+  margin: 10px 0px;
+  padding: 15px 0px 2px 10px;
 }
